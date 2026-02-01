@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <link rel="stylesheet" href="./src/output.css">
+  
+  <title>FAQ accordion | Frontend Mentor</title>
+
+</head>
+<body class="bg-purple-100">
+  <main class="min-h-screen font-main p-4 flex justify-center items-center bg-[url(/assets/images/background-pattern-mobile.svg)] bg-no-repeat bg-contain md:bg-[url(/assets/images/background-pattern-desktop.svg)]">
+    <article class=" max-w-127 bg-white p-8 rounded-[10px]">
+      <div class="flex items-center gap-7">
+        <img src="/assets/images/icon-star.svg" alt="star" class="h-6.25">
+        <h1 class="text-4xl text-purple-950 font-bold">FAQs</h1>
+      </div>
+      <div class="mt-4">
+        <section class="w-full border-b-2 border-b-gray-300">
+          <div class="accordion-header flex mt-4 mb-4 gap-4 items-center cursor-pointer">
+            <h2 class="font-semibold hover:text-purple-600 flex-1">What is Frontend Mentor, and how will it help me?</h2>
+            <img class="block  ml-auto plus-icon" src="/assets/images/icon-plus.svg" alt="">
+            <img class="hidden ml-auto minus-icon" src="/assets/images/icon-minus.svg" alt="">
+          </div>
+          <div class="accordion-content overflow-hidden h-0 transition-all duration-300 ease-in-out">
+            <p class="text-gray-400">Frontend Mentor offers realistic coding challenges to help developers improve their frontend coding skills with projects in HTML, CSS, and JavaScript. It's suitable for all levels and ideal for portfolio building.</p>
+          </div>
+        </section>
+        
+        <section class="w-full border-b-2 border-b-gray-300">
+          <div class="accordion-header flex mt-4 mb-4 gap-4 items-center cursor-pointer">
+            <h2 class="font-semibold hover:text-purple-600 flex-1">Is Frontend Mentor free?</h2>
+            <img class="block  ml-auto plus-icon" src="/assets/images/icon-plus.svg" alt="">
+            <img class="hidden ml-auto minus-icon" src="/assets/images/icon-minus.svg" alt="">
+          </div>
+          <div class="accordion-content overflow-hidden h-0 transition-all duration-300 ease-in-out">
+            <p class="text-gray-400">Yes, Frontend Mentor offers both free and premium coding challenges, with the free option providing access to a range of projects suitable for all skill levels.</p>
+          </div>
+        </section>
+
+        <section class="w-full border-b-2 border-b-gray-300">
+          <div class="accordion-header flex mt-4 mb-4 gap-4 items-center cursor-pointer">
+            <h2 class="font-semibold hover:text-purple-600 flex-1">Can I use Frontend Mentor projects in my portfolio?</h2>
+            <img class="block  ml-auto plus-icon" src="/assets/images/icon-plus.svg" alt="">
+            <img class="hidden ml-auto minus-icon" src="/assets/images/icon-minus.svg" alt="">
+          </div>
+          <div class="accordion-content overflow-hidden h-0 transition-all duration-300 ease-in-out">
+            <p class="text-gray-400">Yes, you can use projects completed on Frontend Mentor in your portfolio. It's an excellent way to showcase your skills to potential employers!</p>
+          </div>
+        </section>
+
+        <section class="w-full border-b-2 border-b-gray-300">
+          <div class="accordion-header flex mt-4 mb-4 gap-4 items-center cursor-pointer">
+            <h2 class="font-semibold hover:text-purple-600 flex-1">How can I get help if I'm stuck on a Frontend Mentor challenge?</h2>
+            <img class="block  ml-auto plus-icon" src="/assets/images/icon-plus.svg" alt="">
+            <img class="hidden ml-auto minus-icon" src="/assets/images/icon-minus.svg" alt="">
+          </div>
+          <div class="accordion-content overflow-hidden h-0 transition-all duration-300 ease-in-out">
+            <p class="text-gray-400">The best place to get help is inside Frontend Mentor's Discord community. There's a help channel where you can ask questions and seek support from other community members.</p>
+          </div>
+        </section>
+
+      </div>
+    </article>
+  </main>
+
+    <!-- <div class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Your Name Here</a>.
+  </div> -->
+</body>
+<script src="script.js"></script>
+</html>
